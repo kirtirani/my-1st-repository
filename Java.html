@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+  <body>
+    <h1> my first JavaScript</h1>
+    <input type="number" id="first"/>
+    <input type="number" id="second"/>
+    <input type="number" value="result"/>
+   <button type="button"
+      onclick="sum()">
+      sum</button>
+    <p id="demo"></p>
+    <input type="number" id="first"/>
+    <input type="number" id="second"/>
+    <input type="number" value="result"/>
+    <button type="button"
+      onclick="sub()">
+      subtract</button>
+    <p id="demo"></p>
+    <input type="number" id="first"/>
+    <input type="number" id="second"/>
+    <input type="number" value="result"/>
+    <button type="button"
+      onclick="multiply()">
+      multiply</button>
+    <p id="demo"></p>
+    <input type="number" id="first"/>
+    <input type="number" id="second"/>
+    <input type="number" value="result"/>
+    <button type="button"
+      onclick="division()">
+      Division</button>
+    <p id="demo"></p>
+    </body>
+  <script type="text/javaScript">
+    function sum()
+    {
+      var first = parseInt(document.getElementById("first").value);
+      var second = parseInt(document.getElementById("second").value);
+      var third = "first+second";
+      document.getElementbyid("demo").innerHTML = third;
+      console.log("third");
+    }
+    function subtract()
+    {
+      var first=parseInt(document.getElementById("first"). value);
+      var second=parseInt(document.getElementById("second"). value);
+    var third="first-second";
+    document.getElementById("demo").innerHTML=third;
+   console.log(third);
+    }
+    function multiply()
+    {
+      var first=parseInt(document.getElementById("first"). value);
+      var second=parseIng(document.getElementById("second"). value);
+      var third="first*second";
+      document.getElementById("demo").innerHTML=third;
+      console.log(third);
+    }
+    function division()
+    {
+      var first=ParseInt(document.getElementbyid("first"). value);
+      var second=parseInt(document.getElementById("second"). value);
+      var third="first/second";
+      document.getElementById("demo").innerHTML=third;
+      console.log(third);
+    }
+  </script>
+  </body>
+</html>
